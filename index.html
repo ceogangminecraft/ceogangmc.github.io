@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minecraft Server</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body>
-<p>test</p>
+<body class="dark-mode">
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="images/buildpa.png" alt="Minecraft CEOGang Server Logo" class="logo">
+            </div>
+            <div class="title-container">
+                <h1 class="mcFont">Welcome to the Minecraft CEOGang Server</h1>
+                <cite></cite>
+            </div>
+        </header>
+        <div class="content">
+            <section class="info mcFont">
+                <h2 class="mcFont">Latest News</h2>
+                <p class="mcFont">Stay tuned for updates, new releases, and community events!</p>
+            </section>
+            <section class="login">
+                <h2 class="mcFont">Check eligibility:</h2>
+                <button id="login"><i class="fab fa-twitch"></i> Login with Twitch</button>
+            </section>
+        </div>
+ 
+        <section class="additional-info-eligible" hidden>
+            <h2 class="mcFont">You are <mark class="green">eligible</mark></h2>
+            <ol class="mcFont">
+                <li>Join the Minecraft forum on <a href="https://discord.com/channels/774176471097933854/1219394544869572701"  target="_blank">discord</a></li>
+                <li>Link your twitch account with discord. Guide <a href="https://www.youtube.com/watch?v=sQnhk2JIeGs"  target="_blank">here</a> </li>
+                <li>Read carefully this <a href="https://docs.google.com/document/d/14v-6Ls-UgI99uHJl4JGojq-737cu3HQQ6Zoo-tU2S6A"  target="_blank">document</a></li>
+            </ol>
+        </section>
+        <section class="additional-info-ineligible" hidden>
+            <h2 class="mcFont">You are <mark class="red">ineligible</mark>. You need one of these requirements:</h2>
+            <ul class="mcFont">
+                <li>Following studytme on twitch for at least 6 months.</li>
+                <li>Active subscription (prime, sub or gifted).</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

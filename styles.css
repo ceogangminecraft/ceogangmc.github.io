@@ -1,0 +1,133 @@
+html{
+    background-color: #2f2d2d;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+cite{
+    font-family: "minecraft";
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top: 1px solid rgb(59 59 59); 
+}
+
+.container {
+    max-width: 850px;
+    padding: 20px;
+    background-color: #5e5e5e;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%; 
+    width: 1px;
+    background-color: rgb(59, 59, 59); 
+}
+
+.info::after {
+    transform: translateX(50%);
+}
+
+.info, .login {
+    width: 45%;
+    padding: 20px;
+}
+
+.info h2, .login h2 {
+    color: #fff;
+}
+
+
+.login button {
+    background-color: #6441A4;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 2px 5px 5px #000000;
+
+}
+
+.login button:hover {
+    background-color: #4E2D7C;
+}
+
+
+@font-face {
+    font-family: minecraft;
+    src: url(minecraft.otf);
+}
+
+
+.mcFont{
+    font-family: 'minecraft';
+    font-size: 25px;
+}
+
+h1.mcFont, h2.mcFont {
+    font-size: 30px;
+    letter-spacing: 0.05cm;
+}
+
+.logo-container {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.title-container {
+    overflow: hidden;
+}
+
+.green{
+    color:#00ff00;
+    background: none;
+}
+
+.red{
+    color:red;
+    background: none;
+}
+
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#57c7ff; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
