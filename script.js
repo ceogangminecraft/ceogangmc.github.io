@@ -7,13 +7,13 @@ var currentPhraseIndex = 1;
 var UserID, username, followedAt = null;
 var followerEligible, subEligible = false;
 var citePhrases = [
-    "> R.I.P Spice the snowman.",
+    "> R.I.P Spice the snowman",
     "> Buildpa is building...",
     "> Don't bother stealing, Kyle is watching :]",
-    "> Beware of lightning, firefighters are on vaction.",
+    "> Beware of lightning, firefighters are on vaction",
     "> Is Villager slavery legal in 2024?",
     "> Metro M1 is now open!!",
-    "> Chery mountain is overcrowded!",
+    "> Cherry mountain is overcrowded!",
     "> Removed Herobrine...?"
 ];
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
             },
             error: function(xhr, status, error) {
-                console.error('Errore durante il recupero delle informazioni dell\'utente:', error);
+                console.error('Error while retrieving general user informations', error);
             }
         });
         
