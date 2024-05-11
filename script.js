@@ -7,7 +7,7 @@ var currentPhraseIndex = 1;
 var UserID, username, followedAt = null;
 var followerEligible, subEligible = false;
 var citePhrases = [
-    "> R.I.P Spice the snowman",
+    "> R.I.P. Spice the snowman",
     "> Buildpa is building...",
     "> Don't bother stealing, Kyle is watching :]",
     "> Beware of lightning, firefighters are on vaction",
