@@ -65,19 +65,24 @@ cite{
     background-color: #6441A4;
     color: #fff;
     border: none;
-    padding: 15px 40px;
-    font-size: 20px;
+    padding: 18px 40px;
+    font-size: 24px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 12px;
     box-shadow: 2px 5px 5px #000000;
+    display: inline-flex;
+    align-items: center;
+}
 
+.login button > * {
+    margin-right: 6px;
+    width: 30px;
 }
 
 .login button:hover {
     background-color: #4E2D7C;
 }
-
 
 @font-face {
     font-family: minecraft;
