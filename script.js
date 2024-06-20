@@ -106,7 +106,7 @@ function checkDate(followedAt) {
     var today = new Date();
     var dataInput = new Date(followedAt.split('T')[0]);
     var timeRequired = new Date(dataInput);
-    timeRequired.setMonth(timeRequired.getMonth() + 6);
+    timeRequired.setMonth(timeRequired.getMonth() + 3);
     return today >= timeRequired;
 }
 
