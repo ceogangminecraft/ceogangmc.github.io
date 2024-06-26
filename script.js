@@ -10,7 +10,7 @@ var citePhrases = [
     "> R.I.P. Spice the snowman",
     "> Buildpa is building...",
     "> Don't bother stealing, Kyle is watching :]",
-    "> Beware of lightning, firefighters are on vaction",
+    "> Beware of lightning, firefighters are on vacation",
     "> Is Villager slavery legal in 2024?",
     "> Metro M1 is now open!!",
     "> Cherry mountain is overcrowded!",
